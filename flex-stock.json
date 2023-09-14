@@ -1,0 +1,104 @@
+{
+  "line": {
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents":
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "สั่งสินค้าเข้า Stock",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "ราคาคุ้มค่า เช็คเลย",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold",
+            "offsetTop": "4px"
+          }
+        ],
+        "offsetStart": "15px",
+        "offsetTop": "20px",
+        "offsetBottom": "14px",
+        "width": "325px",
+        "height": "88px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151928963963305984/Rectangle_358_1.png",
+        "position": "absolute",
+        "offsetStart": "0px",
+        "offsetTop": "34px",
+        "size": "70px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151929678676901938/Rectangle_360_1.png",
+        "position": "absolute",
+        "offsetEnd": "262px",
+        "size": "xs",
+        "offsetTop": "15px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151930181016113243/Rectangle_364.png",
+        "position": "absolute",
+        "offsetStart": "199px",
+        "size": "126px",
+        "offsetTop": "-19px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151931029980991538/Ellipse_12.png",
+        "position": "absolute",
+        "size": "70px",
+        "offsetStart": "210px",
+        "offsetTop": "37px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151931432109867038/Group_6569.png",
+        "position": "absolute",
+        "size": "70px",
+        "offsetStart": "210px",
+        "offsetTop": "24px"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#4470F4",
+      "endColor": "#0C3AB9"
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูสินค้า",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "color": "#0057DD"
+      }
+    ]
+  }
+}
+}
+}
