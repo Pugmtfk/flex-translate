@@ -1,0 +1,90 @@
+{
+  "line": {
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "มีลูกค้าสั่งซื้อ",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1152714844252938361/Rectangle_364_1.png",
+            "position": "absolute",
+            "offsetStart": "200px",
+            "offsetTop": "-15px",
+            "size": "120px"
+          },
+          {
+            "type": "text",
+            "text": "แต่ Stock ร้านไม่เพียงพอ",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold",
+            "offsetStart": "15px"
+          },
+          {
+            "type": "image",
+            "url": "https://media.discordapp.net/attachments/1130113229700477089/1152716087394320414/Ellipse_243.png",
+            "offsetTop": "-60px",
+            "size": "60px",
+            "offsetStart": "115px"
+          },
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1152716087662759936/Group_6569_1.png",
+            "offsetTop": "-115px",
+            "size": "60px",
+            "offsetStart": "116px"
+          },
+          {
+            "type": "image",
+            "url": "https://media.discordapp.net/attachments/1130113229700477089/1152716087952162887/Group_6668.png",
+            "offsetTop": "-175px",
+            "size": "40px",
+            "offsetStart": "90px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": []
+          }
+        ],
+        "height": "88px",
+        "paddingTop": "20px",
+        "paddingBottom": "14px",
+        "background": {
+          "type": "linearGradient",
+          "angle": "270deg",
+          "startColor": "#C30006",
+          "endColor": "#E13232"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ดูสินค้า",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "primary",
+            "color": "#E13232"
+          }
+        ]
+      }
+    }
+  }
+}
